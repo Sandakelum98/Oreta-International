@@ -1,0 +1,884 @@
+/*
+Theme Name: Charith Jayathilaka
+Theme URI: physicstalk.lk
+Author: Sameera
+Author URI: https://itpathfinders.com
+Description: This theme has been designed for Charith Jayathilaka's website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jayathilaka
+Domain Path: /languages/
+Tags: one-column, two-columns, custom-menu, full-width-template, theme-options, threaded-comments,
+*/
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #606060;
+	font-weight: 400;
+	margin: 0;
+}
+* {
+	background-repeat: no-repeat;
+}
+a {
+	-webkit-transition: ease-out all 0.3s;
+	-moz-transition: ease-out all 0.3s;
+	transition: ease-out all 0.3s;
+}
+a {
+	text-decoration: none;
+	color: #232323;
+}
+a:hover, a:active {
+	color: #3b8bc4 !important;
+}
+p {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	border-top: 1px solid #d9d9d9;
+	border-bottom: none;
+	margin: 20px 0;
+}
+h1, h2, h3, h4, .h4, h5, h6 {
+	margin-bottom: 0;
+	font-family: 'Archivo', sans-serif;
+	color: #404040;
+}
+h1, .h1 {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+}
+h2, .h2 {
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: 700;
+}
+h3, .h3 {
+	font-size: 31px;
+	line-height: 55px;
+	font-weight:700;
+}
+h4, .h4 {
+	font-size: 24px;
+	line-height: 35px;
+	font-weight: 700;
+}
+h5, .h5 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+}
+h6, .h6 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+}
+.color-blue {
+	color: #27a9e2;
+}
+.color-black {
+	color: #232323;
+}
+.color-gray {
+	color: #747474;
+}
+.color-light-gray {
+	color: #585858;
+}
+.color-white, .color-white a {
+	color: #ffffff!important;
+}
+.color-pink {
+	color: #f05360;
+}
+.color-green {
+	color: #4fcb5b;
+}
+.bg-light-green {
+	background-color: #4fcb5b;
+}
+.bg-light-orange {
+	background-color: #fcf9f4;
+}
+.bg-light-red {
+	background-color: #f15060;
+}
+.bg-light-blue {
+	background-color: #30c4ea;
+}
+.bg-black-transparent {
+	background-color: #00000040;
+}
+.bg-green {
+	background-color: #8bc646;
+}
+.bg-yellow {
+	background-color: #f5e76c;
+}
+.bg-grey {
+	background-color: #292b2f;
+}
+.bg-footer {
+	background-color: #11941e;
+}
+.bg-light-brown {
+	background-color: #f6f6f6;
+}
+.p-t-5 {
+	padding-top: 5px;
+}
+.p-b-5 {
+	padding-bottom: 5px;
+}
+.p-b-10 {
+	padding-bottom: 10px;
+}
+.p-t-10 {
+	padding-top: 10px;
+}
+.p-t-15 {
+	padding-top: 15px;
+}
+.p-b-15 {
+	padding-bottom: 15px;
+}
+.p-t-20 {
+	padding-top: 20px;
+}
+.p-b-20 {
+	padding-bottom: 20px;
+}
+.p-b-25 {
+	padding-bottom: 25px;
+}
+.p-t-30 {
+	padding-top: 30px;
+}
+.p-b-30 {
+	padding-bottom: 30px;
+}
+.p-t-40 {
+	padding-top: 40px;
+}
+.p-b-40 {
+	padding-bottom: 40px;
+}
+.p-t-50 {
+	padding-top: 50px;
+}
+.p-b-50 {
+	padding-bottom: 50px;
+}
+.p-t-60 {
+	padding-top: 60px;
+}
+.p-b-60 {
+	padding-bottom: 60px;
+}
+.p-t-70 {
+	padding-top: 70px;
+}
+.p-b-70 {
+	padding-bottom: 70px;
+}
+.p-t-80 {
+	padding-top: 80px;
+}
+.p-b-80 {
+	padding-bottom: 80px;
+}
+.p-t-90 {
+	padding-top: 90px;
+}
+.p-b-90 {
+	padding-bottom: 90px;
+}
+.p-t-100 {
+	padding-top: 100px;
+}
+.p-b-100 {
+	padding-bottom: 100px;
+}
+.p-t-110 {
+	padding-top: 110px;
+}
+.p-b-110 {
+	padding-bottom: 110px;
+}
+.p-t-120 {
+	padding-top: 120px;
+}
+.p-b-120 {
+	padding-bottom: 120px;
+}
+.p-t-150 {
+	padding-top: 150px;
+}
+.p-b-150 {
+	padding-bottom: 150px;
+}
+.p-b-220 {
+	padding-bottom: 210px;
+}
+.p-b-0 {
+	padding-bottom: 0;
+}
+.p-t-0 {
+	padding-top: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.justify{
+	text-align:justify;
+}
+.clearfix {
+	clear: both;
+}
+.no-margin {
+	margin: 0;
+}
+#main {
+	overflow: hidden;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.primary-btn {
+	border-radius: 10px;
+	padding: 8px 15px 8px 60px!important;
+	position: relative;
+	color: #fff!important;
+	display: inline-block;
+	background-color: #4fcb5b;
+	font-weight: 400!important;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.primary-btn:hover {
+	background-color: #23d334!important;
+	color: #fff!important;
+}
+.primary-btn:before {
+	content: url("img/forward-double-arrow.png");
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.primary-btn:after {
+	content: "";
+	width: 1px;
+	background-color: #fff6;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 48px;
+}
+/*.primary-btn-icon {
+	display: inline-block;
+	margin-right: 20px;
+}
+.primary-btn span {
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+}*/
+
+/*header*/
+.header-logo-container {
+	display: inline-block;
+	float: left;
+}
+.header-menu-container {
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.header-menu {
+	display: inline-block;
+}
+.header-menu li {
+	display: inline-block;
+}
+.header-menu li a {
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #2b2b2b;
+	text-transform: uppercase;
+}
+.header-menu-container .primary-btn {
+	margin-left: 20px;
+}
+
+/*intro*/
+.intro {
+	background-image: url("img/home-main-img.jpg");
+	background-position: center right;
+	background-size: 100%;
+}
+.intro-content {
+	max-width: 700px;
+	text-align: center;
+}
+.intro-content h5 {
+	margin-bottom: 30px;
+	position: relative;
+}
+.intro-title-desc:before, .intro-title-desc:after {
+	content: '';
+	width: 170px;
+	height: 2px;
+	/*background-color: #5a1418;*/
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+}
+.intro-title-desc:before {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(255,255,255,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6ffffff',GradientType=1 ); /* IE6-9 */
+
+	left: 0;
+}
+.intro-title-desc:after {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.65+0,0+100 */
+	background: -moz-linear-gradient(left,  rgba(255,255,255,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ffffff', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+	right: 0;
+}
+.intro-content h1 {
+	margin-bottom: 40px;
+}
+.intro-content p {
+	font-size: 18px;
+}
+.styled-title {
+	font-family: 'Great Vibes', cursive;
+	font-size: 65px!important;
+	color: #27a9e2;
+	margin: 30px 0;
+}
+/*why srilankan spices*/
+.srilankan-spice-info-box {
+	/*background-color: beige;*/
+	padding: 40px 25px 40px 25px;
+	/*clip-path: polygon(0 0, 0 93%, 75% 0);*/
+	background: linear-gradient(to bottom right, #edf4e7 0%, #edf4e7 38%, #fff 38%, #fff -40%);
+}
+.srilankan-spice-info-item {
+	box-shadow: 0 0 13px 1px #0000001f;
+	padding: 16px;
+	text-align: center;
+	background-color: #fff;
+}
+.srilankan-spice-info-item.bottom-space {
+	margin-bottom: 30px;
+}
+.info-item-icon {
+	width: fit-content;
+	background-color: #4dcb5c;
+	padding: 20px;
+	border-radius: 50%;
+	border: 10px solid #cbf0d0;
+	margin: 0 auto;
+}
+.info-item-title {
+	margin: 12px 0 5px;
+}
+.why-srilankan-spice-right {
+	padding: 35px 0;
+}
+.main-title-up {
+	font-family: 'Great Vibes', cursive;
+	position: relative;
+	padding: 0 25px;
+	width: fit-content;
+	font-weight: 400;
+}
+.main-title-up:before, .main-title-up:after {
+	content: "~";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.main-title-up:before {
+	left: 0;
+}
+.main-title-up:after {
+	right: 0;
+}
+.main-title {
+	margin-bottom: 18px;
+}
+.why-srilankan-spice-right .main-title {
+	margin-bottom: 35px;
+}
+.para {
+	margin-bottom: 30px;
+}
+/*our products*/
+.product-img-title {
+	padding-top: 15px;
+}
+.product-img-container.bottom-space {
+	margin-bottom: 40px;
+}
+.home-product {
+	padding-bottom: 80px;
+}
+.home-product:last-child {
+	padding-bottom: 0px;
+}
+/*to order section*/
+.to-order-section {
+	background-image: url("img/bg-to-orders.jpg");
+	background-size: 100%;
+}
+.to-order-content {
+	padding: 0px 215px;
+}
+.main-title-up-center {
+	margin: 0 auto;
+}
+.bottom-space {
+	margin-bottom: 22px;
+}
+/*footer contact us*/
+.footer {
+	position: relative;
+}
+.footer-contact-us {
+	width: 990px;
+	background-image: url(img/bg-contact-us.jpg);
+	padding: 25px 0;
+	background-position: center left;
+	border-radius: 100px;
+	position: absolute;
+	top: -90px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.footer-contact-us-content {
+	padding-left: 210px;
+}
+.footer-contact-us-content-left {
+	display: inline-block;
+	float: left;
+	padding-right: 40px;
+}
+.footer-contact-us-content-right {
+	display: inline-block;
+	padding: 31px 0px;
+}
+.footer-contact-us-content-left .main-title-up {
+	line-height: 31px;
+}
+.footer-contact-us-content-left h6 {
+	float: right;
+	font-weight: 300;
+}
+/*footer*/
+.footer-widget p {
+	font-size: 16px;
+	color: #fff;
+}
+.footer-about-para {
+	margin: 22px 0;
+}
+.social-media {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background-color: #000;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	position: relative;
+	margin-right: 5px;
+}
+.social-media i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.social-media:hover {
+	background-color: #fff;
+	color: #000!important;
+}
+.footer-sub-title {
+	position: relative;
+}
+.footer-sub-title h4 {
+	color: #fff;
+	line-height: 41px;
+	margin-bottom: 30px;
+}
+.footer-sub-title h4:after {
+	content: "";
+	width: 40px;
+	height: 2px;
+	background-color: #4fcb5b;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.footer-list li {
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 6px;
+}
+.footer-list li:hover a {
+	/*color: #3b8bc4 !important;*/
+}
+.footer-list li:before {
+	content: url("img/forward-double-arrow-2.png");
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.location-detail {
+	margin-bottom: 25px;
+}
+.location-detail a {
+	margin-left: 10px;
+}
+.location-detail.special-box {
+	position: relative;
+	padding-left: 39px;
+}
+.location-detail.special-box img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*product page*/
+.page-description {
+	background-image: url("img/bg-page-desc-1.jpg");
+	background-size: cover;
+	position: relative;
+}
+.page-description img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: auto;
+}
+.page-description-content.center {
+	text-align: center;
+	padding: 0 260px;
+}
+.page-description-content.left {
+	text-align: left;
+	padding-right: 660px;
+}
+
+.page-title {
+	font-size: 40px;
+	line-height: 57px;
+	color: #4fcb5b;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.page-desc {
+	margin-bottom: 35px;
+}
+.breadcrumb a {
+	color: #21a8e1!important;
+}
+/*product single page*/
+.product-details-right {
+	padding-top: 20px;
+}
+.text-bold {
+	font-weight: 600;
+}
+/**/
+.product-type {
+	margin-bottom: 60px;
+}
+.product-type:last-child {
+	margin: 0;
+}
+.product-type.theme-list {
+	background-color: #fff;
+	padding: 60px;
+}
+.product-type.theme-list img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.product-type.theme-list .product-type-desc {
+	padding-left: 20px;
+}
+.product-type-desc ul {
+	margin-bottom: 22px;
+}
+.product-type-desc ul li {
+	padding-left: 30px;
+	position: relative;
+}
+.product-type-desc ul li:before {
+	font-family: FontAwesome;
+	content: '\f058';
+	position: absolute;
+	left: 0;
+	color: #22a9e4;
+}
+.product-type.theme-grid .product-type-desc {
+	background-color: #fff;
+	text-align: center;
+}
+.product-type.theme-grid .product-type-desc h4 {
+	margin-bottom: 15px;
+}
+.product-type.theme-grid .product-type-desc .product-type-desc-down {
+	padding: 25px 25px 30px;
+}
+/*testomonials*/
+.testi-container {
+	padding: 20px 180px;
+	position: relative;
+}
+.testi-content {
+	margin-top: 30px;
+	font-size: 18px;
+}
+.auth-name {
+	margin: 25px 0 8px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.testi-queuto-img {
+	position: absolute;
+	bottom: 20px;
+	right: 180px;
+}
+.bx-wrapper {
+	position: relative;
+}
+.bx-controls {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 30px;
+}
+.bx-controls .bx-controls-direction a {
+	font-size: 60px;
+	padding: 0 12px;
+	color: #b5b5b5;
+}
+.bx-controls .bx-controls-direction a:nth-child(1) {
+	float: left;
+}
+.bx-controls .bx-controls-direction a:nth-child(2) {
+	float: right;
+}
+/*faq*/
+.faq-content {
+	padding: 20px 180px 0;
+}
+.faq-list li {
+	margin-bottom: 20px;
+}
+.faq-list li:last-child {
+	margin: 0;
+}
+.faq {
+	padding: 15px 60px;
+	background-color: #fff;
+	color: #27a9e2;
+	font-size: 18px;
+	font-weight: 500;
+	position: relative;
+}
+.faq:before {
+	font-family: FontAwesome;
+	content: '\f067';
+	position: absolute;
+	left: 25px;
+	color: #27a9e2;
+}
+.active .faq:before {
+	font-family: FontAwesome;
+	content: '\f068';
+	position: absolute;
+	left: 25px;
+	color: #27a9e2;
+}
+.faq-answer {
+	padding: 30px;
+	display: none;
+}
+
+/*about us page*/
+.about-us-main img {
+	/*position: absolute;*/
+	/*top: 50%;*/
+	/*transform: translateY(-50%);*/
+	height: 100%;
+	object-fit: cover;
+}
+.vision-mission-container {
+	/*padding: 60px 55px;*/
+}
+.corner-styled-container.left {
+	padding: 60px 10px 60px 55px;
+	background: linear-gradient(to bottom right, #edf4e7 0%, #edf4e7 40%, #fff 19%, #fff -40%);
+}
+.corner-styled-container.right {
+	padding: 60px 55px 60px 10px;
+	background: linear-gradient(to bottom right, #fff 0%, #fff 60%, #edf4e7 41%, #edf4e7 -40%);
+}
+.corner-styled-content-box {
+	padding: 70px 60px;
+	box-shadow: 0 0 13px 1px #0000001f;
+	background-color: #fff;
+}
+.vision-mission-title {
+	color: #4fcb5b;
+	margin-bottom: 10px;
+}
+/*contact us page*/
+.contact-item {
+	margin-bottom: 30px;
+	position: relative;
+}
+.contact-item a {
+	color: #606060!important;
+}
+.contact-item a:hover {
+	color: #3fb1e5!important;
+}
+.contact-item:last-child {
+	margin-bottom: 0;
+}
+.contact-item img {
+	display: inline-block;
+	padding: 30px;
+	background-color: #4fcb5b;
+	border-radius: 100%;
+	margin-right: 17px;
+	float: left;
+}
+.contact-item-content {
+	display: inline-block;
+}
+.contact-item-title {
+	font-size: 22px;
+	color: #3fb1e5;
+	margin-bottom: 8px;
+}
+.contact-item-content a {
+	display: block;
+	line-height: 25px;
+}
+.contact-us .corner-styled-content-box {
+	padding: 60px 40px;
+}
+/*process page*/
+.process-item {
+	background-color: #fff;
+	margin-bottom: 60px;
+}
+.process-item:last-child {
+	margin-bottom: 0;
+}
+.process-item-content {
+	padding: 50px 70px;
+}
+.process-item-img-container {
+	display: inline-block;
+	float: right;
+	width: 320px;
+	height: 100%;
+	position: relative;
+}
+.process-item img {
+	height: 100%;
+	object-fit: cover;
+}
+.process-item-content {
+	padding: 50px 70px;
+	float: left;
+	display: inline-block;
+	width: 790px;
+}
+.process-item .main-title {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.process-item .main-title-up {
+	line-height: 45px;
+}
+.process-steps-bg{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -65px;
+	color: #fff;
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	background-color: #4fcb5b;
+	border: 2px solid #fff;
+}
+.process-steps-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.process-steps-content .text {
+	font-size: 18px;
+	line-height: 14px;
+	margin-bottom: 10px;
+}
+.process-steps-content .count {
+	font-size: 47px;
+	line-height: 33px;
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+
+@media only screen and (max-width:992px) {
+
+}
+
+@media only screen and (max-width:767px) {
+}
